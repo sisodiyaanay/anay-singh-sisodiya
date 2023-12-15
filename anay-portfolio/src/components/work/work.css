@@ -1,0 +1,10 @@
+.project-card {
+  height: 40rem;
+  width: 30rem;
+  background-color: var(--grey-color);
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
