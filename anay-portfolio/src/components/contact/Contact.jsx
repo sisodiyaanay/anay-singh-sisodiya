@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+// import React from "react";
 import "./contact.css";
 import anay from "../../assets/anay.jpg";
 
 const Contact = () => {
+  useEffect(() => {
+    var datetime = new Date();
+    var ISTOptions = { timeZone: "Asia/Kolkata", hour12: true };
+    var ISTString = datetime.toLocaleString("en-US", ISTOptions);
+    console.log(ISTString);
+    document.getElementById("timeSpan").textContent = ISTString;
+  }, []);
+
   return (
     <section id="contact">
       <div id="fake-footer"></div>
@@ -42,7 +51,9 @@ const Contact = () => {
             </div>
             <div className="version-time" id="time">
               <div className="up-text">TIME</div>
-              <div className="down-text">11:57 AM GMT+5:30</div>
+              <div className="down-text">
+                <span id="timeSpan"></span> <span> IST</span>
+              </div>
             </div>
           </div>
           <div id="bottom-right">
