@@ -25,7 +25,14 @@ const Work = () => {
               <div className="card-heading">Personal Portfolio</div>
               <div className="card-content"></div>
             </div>
-            <div className="card-btn">Read More</div>
+            <div className="card-btn">
+              <a
+                href="https://sisodiyaanay.github.io/anay-singh-sisodiya/#home"
+                target="blank"
+              >
+                Read More
+              </a>
+            </div>
           </div>
 
           <div className="project-card">
@@ -38,7 +45,14 @@ const Work = () => {
               </div>
               <div className="card-content"></div>
             </div>
-            <div className="card-btn">Read More</div>
+            <div className="card-btn">
+              <a
+                href="https://drive.google.com/file/d/1qOK5mYcBkJhqQgIDj9TsWpi1_i3o7AJi/view"
+                target="blank"
+              >
+                Read More
+              </a>
+            </div>
           </div>
 
           <div className="project-card">
@@ -52,7 +66,14 @@ const Work = () => {
               </div>
               <div className="card-content"></div>
             </div>
-            <div className="card-btn">Read More</div>
+            <div className="card-btn">
+              <a
+                href="https://drive.google.com/file/d/1FjQXJDBEHTj2Aef41JRtsX6fk8oOfiLS/view"
+                target="blank"
+              >
+                Read More
+              </a>
+            </div>
           </div>
 
           <div className="project-card">
@@ -65,7 +86,14 @@ const Work = () => {
               </div>
               <div className="card-content"></div>
             </div>
-            <div className="card-btn">Read More</div>
+            <div className="card-btn">
+              <a
+                href="https://drive.google.com/file/d/1Kz-gp9FnO8rMGsSfwBInYN8Smq4kRS5i/view"
+                target="blank"
+              >
+                Read More
+              </a>
+            </div>
           </div>
 
           <div className="project-card">
@@ -76,7 +104,14 @@ const Work = () => {
               <div className="card-heading">Compact Gadget Cleaner</div>
               <div className="card-content"></div>
             </div>
-            <div className="card-btn">Read More</div>
+            <div className="card-btn">
+              <a
+                href="https://drive.google.com/file/d/1BEJzVfkr6nVV0O8HpWYCBkAlql356Zu3/view"
+                target="blank"
+              >
+                Read More
+              </a>
+            </div>
           </div>
         </div>
       </div>
