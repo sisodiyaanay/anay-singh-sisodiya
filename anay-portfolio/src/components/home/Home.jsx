@@ -17,7 +17,7 @@ const Home = () => {
         <div id="home-right">
           <img src={hero_image} alt="hero_image" id="hero-image" />
         </div>
-      </div>
+      </div> 
     </header>
   );
 };

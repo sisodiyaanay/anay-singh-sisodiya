@@ -145,24 +145,15 @@ img {
   font-size: 3.2rem;
 }
 
-/* Media Queries(Medium Devices) */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
+/* Media Queries(Small Devices for mobiles) */
+@media screen and (max-width: 430px) {
+  .section-heading {
+    font-size: 6rem;
   }
 
-  section {
-    margin-top: 6rem;
+  .section-content {
+    font-size: 2.4rem;
   }
 }
 
 /* Media Queries(Small Devices) */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section {
-    margin-top: 2rem;
-  }
-}

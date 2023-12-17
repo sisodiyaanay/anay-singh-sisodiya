@@ -16,3 +16,26 @@
   height: 100%;
   width: 40rem;
 }
+
+@media screen and (max-width: 430px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-main-container {
+    margin: 4rem 0 0 0;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  #about-left img {
+    height: 100%;
+    width: 24rem;
+  }
+
+  #about-right {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}

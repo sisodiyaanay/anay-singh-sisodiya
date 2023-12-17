@@ -56,3 +56,36 @@
 #problem-solving {
   width: 80%;
 }
+
+@media screen and (max-width: 430px) {
+  #skills {
+    width: 100%;
+    height: fit-content;
+  }
+
+
+  #skills-right img {
+    width: 24rem;
+    height: 100%;
+  }
+
+  #skills-main-container {
+    margin: 8rem 0 0 0;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    column-gap: 20rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  #skills-content {
+    font-size: 2.4rem;
+    margin: 0 0 2rem 0;
+  }
+
+  #skill-sub-container {
+    font-size: 2.4rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}

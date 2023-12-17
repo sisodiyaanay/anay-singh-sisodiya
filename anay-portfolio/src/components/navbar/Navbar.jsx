@@ -4,6 +4,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav id="navbar" className="flex-column">
+      
       <div id="helper-nav" className="flex-row">
         <div id="left">
           <a href="#home">© Code by Anay</a>
@@ -31,3 +32,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+ 

@@ -32,3 +32,19 @@ nav {
   border: none;
   cursor: pointer;
 }
+
+
+
+@media screen and (max-width: 430px) {
+  #navbar-right {
+    column-gap: 0.05rem;
+  }
+
+  .nav-btn {
+    color: var(--grey-color);
+    transition: var(--transition);
+    padding: 1rem 0.5rem;
+    border-radius: 100rem;
+  }
+ 
+}
