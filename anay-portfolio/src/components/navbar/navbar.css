@@ -90,8 +90,19 @@
   #hamburger-btn {
     display: block;
     position: absolute;
-    top: 0.8rem;
+    background-color: var(--white-color);
+    top: 1rem;
     right: 1rem;
+    height: fit-content;
+    padding: 0.5rem 1rem;
     z-index: 1; /* Ensure the button is above the menu */
+  }
+
+  .bar {
+    height: 0.4rem;
+    width: 2.4rem;
+    background-color: var(--pink-color);
+    margin: 0.4rem 0;
+    border-radius: 0.2rem;
   }
 }
