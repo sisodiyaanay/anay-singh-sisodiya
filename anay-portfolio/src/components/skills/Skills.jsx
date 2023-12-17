@@ -32,7 +32,7 @@ const Skills = () => {
                 <li>
                   <p className="skills-element-heading">UI/UX Design</p>
                   <div className="skills-100">
-                    <div id="design" className="skills-element"></div>
+                    <div id="UIdesign" className="skills-element"></div>
                   </div>
                 </li>
                 <li>

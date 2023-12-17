@@ -29,6 +29,7 @@
 
 #anay-image {
   height: 10rem;
+  margin: 0 3.2rem 0 0;
   width: max-content;
   border-radius: 100rem;
 }
@@ -72,6 +73,20 @@
 
 .down-text {
   font-size: 1.6rem;
+}
+.down-text a {
+  font-size: 1.6rem;
+  color: var(--white-color);
+}
+
+.down-text:hover {
+  font-size: 1.6rem;
+  color: var(--pink-color);
+}
+
+.down-text a:hover {
+  font-size: 1.6rem;
+  color: var(--pink-color);
 }
 
 .version-time {

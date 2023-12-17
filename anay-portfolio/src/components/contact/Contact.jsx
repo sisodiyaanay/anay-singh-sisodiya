@@ -61,9 +61,17 @@ const Contact = () => {
               SOCIALS
             </div>
             <ul>
-              <li className="down-text">LinkedIn</li>
-              <li className="down-text">GitHub</li>
-              <li className="down-text">Instagram</li>
+              <li className="down-text">
+                <a href="https://www.linkedin.com/in/anay-singh-sisodiya-147473247/">
+                  LinkedIn
+                </a>
+              </li>
+              <li className="down-text">
+                <a href="https://github.com/sisodiyaanay">GitHub</a>
+              </li>
+              <li className="down-text">
+                <a href="https://www.instagram.com/anay.singh_/">Instagram</a>
+              </li>
             </ul>
           </div>
         </div>
