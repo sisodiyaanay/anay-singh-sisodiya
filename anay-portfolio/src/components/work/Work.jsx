@@ -94,7 +94,7 @@ const Work = () => {
                 Read More
               </a>
             </div>
-          </div>
+          </div> 
 
           <div className="project-card">
             <div className="main-content">
