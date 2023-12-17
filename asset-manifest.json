@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/anay-singh-sisodiya/static/css/main.61568d84.css",
+    "main.css": "/anay-singh-sisodiya/static/css/main.0bcb5e32.css",
     "main.js": "/anay-singh-sisodiya/static/js/main.2bd45ac3.js",
     "static/media/jeevan_dan.png": "/anay-singh-sisodiya/static/media/jeevan_dan.53f679bc238651d6158e.png",
     "static/media/anay.jpg": "/anay-singh-sisodiya/static/media/anay.ff7e1f51b6f99efc1190.jpg",
@@ -55,11 +55,11 @@
     "static/media/league-spartan-vietnamese-400-normal.woff2": "/anay-singh-sisodiya/static/media/league-spartan-vietnamese-400-normal.65862814f8e5671bd16e.woff2",
     "static/media/league-spartan-vietnamese-100-normal.woff2": "/anay-singh-sisodiya/static/media/league-spartan-vietnamese-100-normal.354c7d5006bbc5c3d9b9.woff2",
     "index.html": "/anay-singh-sisodiya/index.html",
-    "main.61568d84.css.map": "/anay-singh-sisodiya/static/css/main.61568d84.css.map",
+    "main.0bcb5e32.css.map": "/anay-singh-sisodiya/static/css/main.0bcb5e32.css.map",
     "main.2bd45ac3.js.map": "/anay-singh-sisodiya/static/js/main.2bd45ac3.js.map"
   },
   "entrypoints": [
-    "static/css/main.61568d84.css",
+    "static/css/main.0bcb5e32.css",
     "static/js/main.2bd45ac3.js"
   ]
 }
