@@ -1,4 +1,4 @@
-nav {
+#navbar {
   font-size: 2rem;
   background-color: var(--white-color);
   height: 6.4rem;
@@ -7,6 +7,8 @@ nav {
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1),
     0 0.4rem 0.8rem rgba(0, 0, 0, 0.1), 0 0.8rem 1.6rem rgba(0, 0, 0, 0.1);
   position: fixed;
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(0);
 }
 
 #helper-nav {
@@ -14,10 +16,17 @@ nav {
   height: 6.4rem;
   width: 96%;
   align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  margin-left: 1rem;
 }
 
 #navbar-right {
   column-gap: 2rem;
+  display: flex;
 }
 
 .nav-btn {
@@ -33,18 +42,56 @@ nav {
   cursor: pointer;
 }
 
+#hamburger-btn {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
 
+.bar {
+  height: 0.4rem;
+  width: 2rem;
+  background-color: var(--grey-color);
+  margin: 0.4rem 0;
+  border-radius: 0.2rem;
+}
 
 @media screen and (max-width: 430px) {
+  #navbar {
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #navbar.show {
+    transform: translateY(-100%);
+  }
+
   #navbar-right {
-    column-gap: 0.05rem;
+    flex-direction: column;
+    position: absolute;
+    top: 6.4rem;
+    left: 0;
+    background-color: var(--white-color);
+    width: 100%;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  #navbar.show #navbar-right {
+    display: flex;
   }
 
   .nav-btn {
-    color: var(--grey-color);
-    transition: var(--transition);
-    padding: 1rem 0.5rem;
-    border-radius: 100rem;
+    width: 100%;
+    text-align: center;
   }
- 
+
+  #hamburger-btn {
+    display: block;
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+    z-index: 1; /* Ensure the button is above the menu */
+  }
 }
