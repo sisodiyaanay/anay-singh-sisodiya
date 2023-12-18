@@ -36,7 +36,7 @@ const Contact = () => {
           <div className="horizontal-line"></div>
           <div id="mail-phone">
             <div id="mail" className="contact-phone-mail">
-              sisodiyaanay@iitgn.ac.in
+              <a className="contact-link" href="sisodiyaanay@iitgn.ac.in">sisodiyaanay@iitgn.ac.in</a>
             </div>
             <div id="phone" className="contact-phone-mail">
               +91 6263 818 327
