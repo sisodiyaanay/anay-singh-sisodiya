@@ -36,10 +36,10 @@ const Contact = () => {
           <div className="horizontal-line"></div>
           <div id="mail-phone">
             <div id="mail" className="contact-phone-mail">
-              <a className="contact-link" href="sisodiyaanay@iitgn.ac.in">sisodiyaanay@iitgn.ac.in</a>
+              <a className="contact-link" href="mailto:sisodiyaanay@iitgn.ac.in">sisodiyaanay@iitgn.ac.in</a>
             </div>
             <div id="phone" className="contact-phone-mail">
-              +91 6263 818 327
+              <a href="tel:+916263818327">+91 6263 818 327</a>
             </div>
           </div>
         </div>

@@ -57,7 +57,7 @@
   border-radius: 100rem;
 }
 
-#mail a {
+#mail a,#phone a {
   color: var(--white-color);
 }
 
