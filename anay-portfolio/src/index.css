@@ -24,7 +24,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
+  font-size: 10px;
 }
 
 ::-webkit-scrollbar {
@@ -90,6 +90,11 @@ a {
 
 a:hover {
   color: var(--balck-color);
+}
+
+.nav-text{
+  font-size: 1.25rem;
+  color: var(--grey-color);
 }
 
 .btn {

@@ -13,9 +13,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav id="navbar" className={`flex-column ${showNav ? "show" : ""}`}>
-      <div id="helper-nav" className="flex-row">
-        <div id="left">
+    <nav id="navbar" className={`nav-text ${showNav ? "show" : ""}`}>
+      <div id="helper-nav">
+        <div id="navbar-left">
           <a href="#home">© Code by Anay</a>
         </div>
         <div id="navbar-right" className="flex-row">
