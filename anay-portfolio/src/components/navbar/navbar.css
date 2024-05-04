@@ -11,6 +11,13 @@ nav {
   transform: translateY(0);
 }
 
+#code-by-anay{
+  padding: 0.5rem 1rem;
+  color: var(--grey-color);
+  background-color: var(--pink-color);
+  border-radius: 0.5rem;
+}
+
 #helper-nav {
   display: flex;
   justify-content: space-between;
