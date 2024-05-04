@@ -7,8 +7,9 @@ const Skills = () => {
     <section id="skills" className="flex-column">
       <div id="skills-main-container" className="flex-row">
         <div id="skills-left">
-          <div className="skills-heading">
+          <div className="skills-main">
             <p className="section-heading">Skills</p>
+            <div id="skills-phone-contsiner"><img src={skills} alt="skills_image" id="skills-image-phone" /></div>
             <p className="section-content" id="skills-content">
               I have an experience of building projects with HTML, CSS,
               JavaScript and ReactJS aditionally I have also worked with MySQL,
