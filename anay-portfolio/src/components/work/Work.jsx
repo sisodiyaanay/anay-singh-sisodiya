@@ -9,7 +9,7 @@ import design from "../../assets/design.png";
 const Work = () => {
   return (
     <section id="work">
-      <div id="work-main-container" className="flex-column">
+      <div id="work-main-container" >
         <div id="work-heading">
           {" "}
           <p className="section-heading" id="work-heading">

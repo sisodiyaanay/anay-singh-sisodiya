@@ -43,11 +43,11 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div id="bottom-footer" className="flex-row">
+        <div id="bottom-footer" >
           <div id="bottom-left">
             <div className="version-time" id="version">
               <div className="up-text">VERSION</div>
-              <div className="down-text">2023 © Edition </div>
+              <div className="down-text">2024 © Edition </div>
             </div>
             <div className="version-time" id="time">
               <div className="up-text">TIME</div>
