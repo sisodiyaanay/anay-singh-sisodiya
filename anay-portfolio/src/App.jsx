@@ -7,6 +7,7 @@ import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Preloader from "./components/preloader/Preloader";
 
+
 import "@fontsource/league-spartan"; // Defaults to weight 400
 import "@fontsource/league-spartan/700.css"; // Specify weight
 import "@fontsource/league-spartan/600.css"; // Specify weight

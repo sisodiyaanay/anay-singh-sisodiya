@@ -72,6 +72,11 @@
   color: var(--white-color);
 }
 
+.card-btn:hover a{
+  color: var(--white-color);
+  transition: none;
+}
+
 #work-heading {
   margin: 3rem 0 2rem 0;
 }
