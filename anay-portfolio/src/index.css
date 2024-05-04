@@ -150,16 +150,15 @@ img {
   font-size: 2rem;
 }
 
-/* Media Queries(Small Devices for mobiles) */
 @media screen and (max-width: 430px) {
+  .title {
+    font-size: 4rem;
+  }
   .section-heading {
-    font-size: 6rem;
+    font-size: 3.75rem;
   }
 
   .section-content {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
   }
-
 }
-
-/* Media Queries(Small Devices) */

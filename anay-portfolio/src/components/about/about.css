@@ -12,12 +12,10 @@
   justify-content: space-between;
   align-items: center;
   width: 86%;
+  gap: 6rem;
 }
 
-#about-left img *important{
-  height: 100%;
-  /* width: 40rem; */
-}
+
 
 @media screen and (max-width: 996px) {
   #about {
