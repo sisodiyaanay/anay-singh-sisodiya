@@ -4,7 +4,7 @@ import laptop_wave from "../../assets/laptop_wave.png";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about"> 
       <div id="about-main-container" className="flex-row">
         <div id="about-left">
           <img src={laptop_wave} alt="hero_image" id="about-image" />
