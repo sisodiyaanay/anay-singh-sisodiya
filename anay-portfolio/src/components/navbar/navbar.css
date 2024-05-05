@@ -42,9 +42,15 @@ nav {
   align-items: center;
   width: 95%;
 }
+#navbar-right-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1rem;
+}
 
 #navbar-right {
-  column-gap: 2rem;
+  column-gap: 1rem;
   display: flex;
 }
 

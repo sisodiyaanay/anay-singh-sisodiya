@@ -8,7 +8,7 @@ const ThemeToggle = () => {
 
   return (
     <label className="theme-switch" htmlFor="theme-switch-checkbox">
-      <input
+      <input 
         type="checkbox"
         id="theme-switch-checkbox"
         onChange={handleThemeToggle}
