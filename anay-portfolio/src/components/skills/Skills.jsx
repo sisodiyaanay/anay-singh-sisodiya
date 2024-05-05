@@ -1,15 +1,52 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./skills.css";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import skills from "../../assets/skills.png";
 
 const Skills = () => {
+  const skillsLeftRef = useRef(null);
+  const skillsRightRef = useRef(null);
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animation for the left section
+    gsap.from(skillsLeftRef.current, {
+      x: -100,
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: skillsLeftRef.current,
+        start: "top 90%", 
+        end: "bottom 90%", 
+        scrub: true, 
+      },
+    });
+
+    // Animation for the right section
+    gsap.from(skillsRightRef.current, {
+      x: 100,
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: skillsRightRef.current,
+        start: "top 90%",
+        end: "bottom 70%",
+        scrub: true,
+      },
+    });
+
+    
+  }, []);
+
   return (
     <section id="skills" className="flex-column">
       <div id="skills-main-container" className="flex-row">
-        <div id="skills-left">
+        <div id="skills-left" ref={skillsLeftRef}>
           <div className="skills-main">
             <p className="section-heading">Skills</p>
-            <div id="skills-phone-contsiner"><img src={skills} alt="skills_image" id="skills-image-phone" /></div>
+            <div id="skills-phone-container"><img src={skills} alt="skills_image" id="skills-image-phone" /></div>
             <p className="section-content" id="skills-content">
               I have an experience of building projects with HTML, CSS,
               JavaScript and ReactJS aditionally I have also worked with MySQL,
@@ -46,7 +83,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div id="skills-right">
+        <div id="skills-right" ref={skillsRightRef}>
           <img src={skills} alt="skills_image" id="skills-image" />
         </div>
       </div>

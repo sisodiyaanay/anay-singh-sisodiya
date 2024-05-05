@@ -4,6 +4,7 @@
   color: var(--white-color);
   display: flex;
   flex-direction: column;
+  z-index: 9999999;
 }
 
 #fake-footer {

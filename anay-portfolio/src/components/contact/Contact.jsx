@@ -4,6 +4,8 @@ import "./contact.css";
 import anay from "../../assets/anay.jpg";
 
 const Contact = () => {
+
+  
   useEffect(() => {
     var datetime = new Date();
     var ISTOptions = { timeZone: "Asia/Kolkata", hour12: true };

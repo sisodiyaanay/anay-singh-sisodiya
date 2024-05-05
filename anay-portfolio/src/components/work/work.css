@@ -72,6 +72,15 @@
   color: var(--white-color);
 }
 
+.project-card {
+  /* Add hover effects here */
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Increase size on hover */
+}
+
 .card-btn:hover a{
   color: var(--white-color);
   transition: none;
@@ -80,6 +89,8 @@
 #work-heading {
   margin: 3rem 0 2rem 0;
 }
+
+
 
 @media screen and (max-width: 430px){
 

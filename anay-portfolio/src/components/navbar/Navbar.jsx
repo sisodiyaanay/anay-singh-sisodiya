@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import React, { useRef, useState } from "react";
 import "./navbar.css";
+import ThemeToggle from '../darkmode/ThemeToggle';
 
 const Navbar = () => {
 
@@ -47,8 +48,11 @@ const Navbar = () => {
       <div id="helper-nav">
         <div id="navbar-left" className='nav-animation'>
           <a id="code-by-anay" href="#home">© Code by Anay</a>
-        </div> 
+          <ThemeToggle />
+        </div>
+        
         <div id="navbar-right" className="flex-row">
+        
           <a href="#home" className="nav-btn nav-animation" onClick={hideNav}>
             Home
           </a>
