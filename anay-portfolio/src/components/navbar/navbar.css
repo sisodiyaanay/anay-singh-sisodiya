@@ -9,6 +9,7 @@ nav {
   position: fixed;
   transition: transform 0.3s ease-in-out;
   transform: translateY(0);
+  z-index: 1000;
 }
 
 #code-by-anay{

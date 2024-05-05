@@ -20,7 +20,7 @@ import "@fontsource/league-spartan/100.css"; // Specify weight
 const App = () => {
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <Navbar />
       <Home />
       <About />
