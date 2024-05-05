@@ -32,7 +32,7 @@ const App = () => {
 
       <div className={`app ${darkMode ? 'dark-mode' : 'light-mode'}`}>
         <div className="overlay"></div>
-        <Navbar />
+        <Navbar darkMode={darkMode} />
         <ThemeToggle onToggle={toggleTheme} />
         <Home />
         <About />

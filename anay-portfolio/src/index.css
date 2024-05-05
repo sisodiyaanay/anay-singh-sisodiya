@@ -14,21 +14,21 @@
   --pink-color-light: #ff9aad;
   --light-grey-color-light: #565656;
   --white-color-light: #fffafc;
-  --balck-color-light: #121212;
+  --black-color-light: #121212;
 
   /* Dark Theme Colors */
   --grey-color-dark: #f0f0f0;
   --pink-color-dark: #ff9aad;
-  --light-grey-color-dark: #565656;
+  --light-grey-color-dark: #ff9aad;
   --white-color-dark: #121212;
-  --balck-color-dark: #fffafc;
+  --black-color-dark: #fffafc;
 
   /* Default Theme */
   --grey-color: var(--grey-color-light);
   --pink-color: var(--pink-color-light);
   --light-grey-color: var(--light-grey-color-light);
   --white-color: var(--white-color-light);
-  --balck-color: var(--balck-color-light);
+  --black-color: var(--black-color-light);
 
   /* Other CSS Variables */
   --transition: all 400ms ease;
@@ -45,7 +45,7 @@
   --pink-color: var(--pink-color-dark);
   --light-grey-color: var(--light-grey-color-dark);
   --white-color: var(--white-color-dark);
-  --balck-color: var(--balck-color-dark);
+  --black-color: var(--black-color-dark);
 }
 
 /* Toggle button style */
@@ -80,6 +80,16 @@ html {
   background-color: var(--white-color); /* Overlay color */
   opacity: 0.5; /* Default opacity */
   pointer-events: none; /* Allow interaction with elements beneath the overlay */
+}
+
+.light-mode-box-shadow{
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1),
+    0 0.4rem 0.8rem rgba(0, 0, 0, 0.1), 0 0.8rem 1.6rem rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode-box-shadow{
+  box-shadow: 0 0.2rem 0.4rem rgba(255, 255, 255, 0.1),
+    0 0.4rem 0.8rem rgba(255, 255, 255, 0.1), 0 0.8rem 1.6rem rgba(255, 255, 255, 0.1);
 }
 
 .light-mode .overlay {
@@ -157,7 +167,7 @@ a {
 }
 
 a:hover {
-  color: var(--balck-color);
+  color: var(--black-color);
 }
 
 .nav-text{

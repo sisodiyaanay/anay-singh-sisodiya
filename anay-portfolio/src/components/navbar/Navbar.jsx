@@ -4,7 +4,7 @@ import React, { useRef, useState } from "react";
 import "./navbar.css";
 import ThemeToggle from '../darkmode/ThemeToggle';
 
-const Navbar = () => {
+const Navbar = ({ darkMode }) => {
 
 
   const [showNav, setShowNav] = useState(false);
@@ -44,7 +44,7 @@ const Navbar = () => {
 
 
   return (
-    <nav id="navbar" className={`nav-text ${showNav ? "show" : ""}`}>
+    <nav id="navbar" className={`nav-text ${showNav ? "show" : ""} nav ${darkMode ? 'dark-mode' : 'light-mode'}`}>
       <div id="helper-nav">
         <div id="navbar-left" className='nav-animation'>
           <a id="code-by-anay" href="#home">© Code by Anay</a>
