@@ -26,6 +26,7 @@ const Navbar = ({ darkMode }) => {
       opacity: 1,
       duration: 1,
       stagger: 0.1,
+      delay: 2,
       ease: "power4.out",
     });    
   })
@@ -39,7 +40,7 @@ const Navbar = ({ darkMode }) => {
       opacity: 1,
       duration: 1,
       stagger: 0.1,
-      delay: 1.5,
+      delay: 3.5,
       ease: "power4.out",
     });    
   })

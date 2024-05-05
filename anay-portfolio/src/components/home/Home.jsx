@@ -15,17 +15,17 @@ const Home = () => {
     tl.fromTo(
       helloRef.current,
       { opacity: 0, x: -50 },
-      { opacity: 1, x: 0, duration: 1 }
+      { opacity: 1, x: 0, duration: 0.8,delay: 2}
     )
       .fromTo(
         nameRef.current,
         { opacity: 0, x: -50 },
-        { opacity: 1, x: 0, duration: 1 }
+        { opacity: 1, x: 0, duration: 0.8 }
       )
       .fromTo(
         imageRef.current,
         { opacity: 0, x: 50 },
-        { opacity: 1, x: 0, duration: 1 },
+        { opacity: 1, x: 0, duration: 0.8 },
         "-=0.5" // Start this animation 0.5 second before the previous one ends
       )
       .fromTo(

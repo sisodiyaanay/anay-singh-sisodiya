@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <>
-      {/* <Preloader /> */}
+      <Preloader />
 
       <div className={`app ${darkMode ? 'dark-mode' : 'light-mode'}`}>
         <div className="overlay"></div>
