@@ -7,7 +7,6 @@ import Skills from "./components/skills/Skills";
 import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Preloader from "./components/preloader/Preloader";
-import ThemeToggle from './components/darkmode/ThemeToggle';
 
 
 import "@fontsource/league-spartan"; // Defaults to weight 400
@@ -33,7 +32,6 @@ const App = () => {
       <div className={`app ${darkMode ? 'dark-mode' : 'light-mode'}`}>
         <div className="overlay"></div>
         <Navbar darkMode={darkMode} />
-        <ThemeToggle onToggle={toggleTheme} />
         <Home />
         <About />
         <Skills />

@@ -13,27 +13,27 @@ const Skills = () => {
 
     // Animation for the left section
     gsap.from(skillsLeftRef.current, {
-      x: -100,
+      y: 100,
       opacity: 0,
       duration: 1,
       scrollTrigger: {
         trigger: skillsLeftRef.current,
         start: "top 90%", 
         end: "bottom 90%", 
-        scrub: true, 
+        scrub: 1, 
       },
     });
 
     // Animation for the right section
     gsap.from(skillsRightRef.current, {
-      x: 100,
+      y: 100,
       opacity: 0,
       duration: 1,
       scrollTrigger: {
         trigger: skillsRightRef.current,
         start: "top 90%",
         end: "bottom 70%",
-        scrub: true,
+        scrub: 1,
       },
     });
 
