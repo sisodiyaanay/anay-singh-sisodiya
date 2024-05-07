@@ -13,7 +13,7 @@ const About = () => {
 
     // Animation for the left section
     gsap.from(aboutLeftRef.current, {
-      y: 100,
+      y: 50,
       opacity: 0,
       duration: 1,
       scrollTrigger: {
@@ -26,7 +26,7 @@ const About = () => {
 
     // Animation for the right section
     gsap.from(aboutRightRef.current, {
-      y: 100,
+      y: 50,
       opacity: 0,
       duration: 1,
       scrollTrigger: {

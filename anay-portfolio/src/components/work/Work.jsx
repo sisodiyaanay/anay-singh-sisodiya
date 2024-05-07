@@ -21,8 +21,8 @@ const Work = () => {
       duration: 1,
       scrollTrigger: {
         trigger: "#work-heading",
-        start: "top 90%", // Adjust as needed
-        end: "bottom 70%", // Adjust as needed
+        start: "top 90%", 
+        end: "bottom 70%", 
         scrub: 1,
       },
     });
@@ -35,8 +35,8 @@ const Work = () => {
         duration: 1,
         scrollTrigger: {
           trigger: card,
-          start: "top 90%", // Adjust as needed
-          end: "bottom 70%", // Adjust as needed
+          start: "top 90%", 
+          end: "bottom 70%", 
           scrub: 1,
         },
       });

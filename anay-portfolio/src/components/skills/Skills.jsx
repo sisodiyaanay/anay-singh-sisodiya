@@ -13,7 +13,7 @@ const Skills = () => {
 
     // Animation for the left section
     gsap.from(skillsLeftRef.current, {
-      y: 100,
+      y: 50,
       opacity: 0,
       duration: 1,
       scrollTrigger: {
@@ -26,7 +26,7 @@ const Skills = () => {
 
     // Animation for the right section
     gsap.from(skillsRightRef.current, {
-      y: 100,
+      y: 50,
       opacity: 0,
       duration: 1,
       scrollTrigger: {

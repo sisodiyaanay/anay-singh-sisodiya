@@ -37,9 +37,6 @@
   --container-width-sm: 90%;
 }
 
-/* Rest of your CSS styles here */
-
-/* Add any additional styles for dark mode here */
 .dark-mode {
   --grey-color: var(--grey-color-dark);
   --pink-color: var(--pink-color-dark);
@@ -67,8 +64,7 @@ html {
 }
 
 .app {
-  /* Common styles for both themes */
-  position: relative; /* Ensure proper positioning of the overlay */
+  position: relative; 
 }
 
 .overlay {
@@ -77,9 +73,9 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--white-color); /* Overlay color */
-  opacity: 0.5; /* Default opacity */
-  pointer-events: none; /* Allow interaction with elements beneath the overlay */
+  background-color: var(--white-color); 
+  opacity: 0.5; 
+  pointer-events: none; 
 }
 
 .light-mode-box-shadow{
@@ -93,16 +89,16 @@ html {
 }
 
 .light-mode .overlay {
-  opacity: 0; /* No overlay in light mode */
+  opacity: 0; 
 }
 
 .dark-mode .overlay {
-  opacity: 0.8; /* Adjust opacity for dark mode */
+  opacity: 0.8; 
 }
 
 .contact-wrapper {
   position: relative;
-  z-index: 1; /* Ensure the contact component is above the overlay */
+  z-index: 1; 
 }
 
 
