@@ -49,11 +49,11 @@ const Contact = () => {
           <div id="bottom-left">
             <div className="version-time" id="version">
               <div className="up-text">VERSION</div>
-              <div className="down-text">2024 © Edition </div>
+              <div className="down-text-left">2024 © Edition </div>
             </div>
             <div className="version-time" id="time">
               <div className="up-text">TIME</div>
-              <div className="down-text">
+              <div className="down-text-left">
                 <span id="timeSpan"></span> <span> IST</span>
               </div>
             </div>
