@@ -58,6 +58,10 @@
   border-radius: 100rem;
 }
 
+.contact-phone-mail:hover{
+border-color: var(--pink-color);
+}
+
 #mail a,#phone a {
   color: var(--white-color);
 }
