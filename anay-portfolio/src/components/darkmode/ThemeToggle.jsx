@@ -6,7 +6,7 @@ const ThemeToggle = () => {
   const handleThemeToggle = () => {
     const currentTheme = document.body.classList.toggle('dark-mode');
     localStorage.setItem('theme', currentTheme ? 'dark' : 'light');
-    window.location.reload(); // Reload the page to apply the theme
+    // window.location.reload(); // Reload the page to apply the theme
   };
 
   // Use effect to set the theme on initial load based on local storage
