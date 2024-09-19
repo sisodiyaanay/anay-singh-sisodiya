@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anay-singh-sisodiya/static/css/main.4c201fa4.css",
-    "main.js": "/anay-singh-sisodiya/static/js/main.a538e1ad.js",
+    "main.js": "/anay-singh-sisodiya/static/js/main.ccf75255.js",
     "static/media/jeevan_dan.png": "/anay-singh-sisodiya/static/media/jeevan_dan.53f679bc238651d6158e.png",
     "static/media/graduation.png": "/anay-singh-sisodiya/static/media/graduation.015302c52f296b39fac6.png",
     "static/media/anay.jpg": "/anay-singh-sisodiya/static/media/anay.ff7e1f51b6f99efc1190.jpg",
@@ -9,6 +9,7 @@
     "static/media/lithium.png": "/anay-singh-sisodiya/static/media/lithium.1d557276b6124d7be519.png",
     "static/media/analysis.png": "/anay-singh-sisodiya/static/media/analysis.2ed25f5508e44b8993a2.png",
     "static/media/laptop_wave.png": "/anay-singh-sisodiya/static/media/laptop_wave.ecbf73412edb14d31e47.png",
+    "static/media/world_cup.png": "/anay-singh-sisodiya/static/media/world_cup.5e24505049f0b4ae7431.png",
     "static/media/skills.png": "/anay-singh-sisodiya/static/media/skills.867fbc9c4925ab96ef14.png",
     "static/media/design.png": "/anay-singh-sisodiya/static/media/design.b2e085449d6b7a8f66e3.png",
     "static/media/background-image.png": "/anay-singh-sisodiya/static/media/background-image.61fc294bd080d8986ab5.png",
@@ -57,10 +58,10 @@
     "static/media/league-spartan-vietnamese-100-normal.woff2": "/anay-singh-sisodiya/static/media/league-spartan-vietnamese-100-normal.354c7d5006bbc5c3d9b9.woff2",
     "index.html": "/anay-singh-sisodiya/index.html",
     "main.4c201fa4.css.map": "/anay-singh-sisodiya/static/css/main.4c201fa4.css.map",
-    "main.a538e1ad.js.map": "/anay-singh-sisodiya/static/js/main.a538e1ad.js.map"
+    "main.ccf75255.js.map": "/anay-singh-sisodiya/static/js/main.ccf75255.js.map"
   },
   "entrypoints": [
     "static/css/main.4c201fa4.css",
-    "static/js/main.a538e1ad.js"
+    "static/js/main.ccf75255.js"
   ]
 }
