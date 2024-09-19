@@ -5,7 +5,8 @@ import analysis from "../../assets/analysis.png";
 import lithium from "../../assets/lithium.png";
 import jeevan_dan from "../../assets/jeevan_dan.png";
 import design from "../../assets/design.png";
-// import cricket from "../../assets/cricket.png";
+import uci_har from "../../assets/uci_har.png";
+import uci_har_2 from "../../assets/uci_har_2.png";
 import world_cup from "../../assets/world_cup.png";
 import graduation from "../../assets/graduation.png";
 import ProjectCard from "./Projectcard.jsx";
@@ -68,9 +69,15 @@ const Work = () => {
             className="project-card"
           />
           <ProjectCard
+              imageUrl={uci_har_2}
+              heading=" HumanActivity Recognition (HAR) Analysis"
+              link="https://github.com/sisodiyaanay/UCI-HAR"
+              className="project-card"
+            />
+          <ProjectCard
               imageUrl={world_cup}
               heading="Analyzing Performance Data for T20 World Cup 2024: Best 11 Prediction"
-              link="https://github.com/sisodiyaanay/t20-wc-2024-best-XI/"
+              link="https://github.com/sisodiyaanay/t20-wc-2024-best-XI"
               className="project-card"
             />
           <ProjectCard
