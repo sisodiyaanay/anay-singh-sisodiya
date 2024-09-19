@@ -5,6 +5,8 @@ import analysis from "../../assets/analysis.png";
 import lithium from "../../assets/lithium.png";
 import jeevan_dan from "../../assets/jeevan_dan.png";
 import design from "../../assets/design.png";
+// import cricket from "../../assets/cricket.png";
+import world_cup from "../../assets/world_cup.png";
 import graduation from "../../assets/graduation.png";
 import ProjectCard from "./Projectcard.jsx";
 import gsap from "gsap";
@@ -66,6 +68,12 @@ const Work = () => {
             className="project-card"
           />
           <ProjectCard
+              imageUrl={world_cup}
+              heading="Analyzing Performance Data for T20 World Cup 2024: Best 11 Prediction"
+              link="https://github.com/sisodiyaanay/t20-wc-2024-best-XI/"
+              className="project-card"
+            />
+          <ProjectCard
             imageUrl={lithium}
             heading="Comprehensive Analysis on Lithium Production"
             link="https://drive.google.com/file/d/1qOK5mYcBkJhqQgIDj9TsWpi1_i3o7AJi/view"
@@ -83,6 +91,7 @@ const Work = () => {
             link="https://drive.google.com/file/d/1Kz-gp9FnO8rMGsSfwBInYN8Smq4kRS5i/view"
             className="project-card"
           />
+            
           <ProjectCard
             imageUrl={design}
             heading="Compact Gadget Cleaner"
